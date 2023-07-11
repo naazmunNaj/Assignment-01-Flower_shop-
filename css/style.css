@@ -47,20 +47,44 @@ body {
     padding: 20px 43px;
     border: none;
 }
-.sign_up{
-    padding-top: 215px;
-    padding-bottom: 128px;
+
+.sign_up {
+    margin-top: 215px;
+    margin-bottom: 128px;
+    padding: 200px 350px;
 }
+
+.sign_up_title {
+    text-align: center;
+}
+
 .sign_up_parent {
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* padding: 100px 200px 100px 150px; */
+    justify-content: space-between;
+}
+
+.sign_up h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sign_up p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 594px;
+    text-align: center;
 }
 
 .common_title {
     width: 594px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .common_title h3 {
@@ -78,6 +102,32 @@ body {
     padding-top: 24px;
     padding-bottom: 32px;
 }
-.sign_up_image{
-    padding-left: 186px;
+
+.insta_gallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 240px 128px;
+}
+
+.deals {
+    background: url(../images/deals.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 400px 250px;
+    margin: 0 150px 128px 200px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info input {
+    width: 700px;
+    height: 64px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 5px;
+    margin-right: 16px;
 }
