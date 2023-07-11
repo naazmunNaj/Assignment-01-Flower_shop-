@@ -14,6 +14,7 @@ body {
     align-items: center;
     background-color: #E554731A;
     padding: 50px 240px 0 200px;
+    margin-bottom: 178px;
 }
 
 .banner-text {
@@ -52,6 +53,7 @@ body {
     margin-top: 215px;
     margin-bottom: 128px;
     padding: 200px 350px;
+    background-color: #E554731A;
 }
 
 .sign_up_title {
@@ -79,6 +81,8 @@ body {
     line-height: 30px;
     width: 594px;
     text-align: center;
+    padding-top: 24px;
+    padding-bottom: 32px;
 }
 
 .common_title {
@@ -117,11 +121,13 @@ body {
     padding: 200px 400px 250px;
     margin: 0 150px 128px 200px;
 }
-.info{
+
+.info {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .info input {
     width: 700px;
     height: 64px;
@@ -130,4 +136,43 @@ body {
     font-weight: 400;
     padding-left: 5px;
     margin-right: 16px;
+}
+
+.footer-bg {
+    background: #111010;
+    padding: 128px 232px 128px;
+}
+
+.footer_title {
+    width: 594px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer_title h3 {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer_title span {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer_title p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright p{
+    color: rgba(255, 255, 255, 0.212);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 32px;
 }
