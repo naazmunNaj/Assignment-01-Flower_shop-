@@ -67,10 +67,10 @@ body {
     position: absolute;
     transform: translate(23%, 26%);
 }
-/* .pink_bg p{
+.pink_bg p {
     position: absolute;
-    transform: translate(50%, 50%);
-} */
+    transform: translate(121%, 2900%);
+}
 .blue_bg {
     width: 464px;
     height: 538px;
@@ -81,6 +81,10 @@ body {
 .blue_bg img {
     position: absolute;
     transform: translate(18%, 37%);
+}
+.blue_bg p {
+    position: absolute;
+    transform: translate(140%, 2900%);
 }
 .green_bg {
     width: 464px;
@@ -93,7 +97,14 @@ body {
     position: absolute;
     transform: translate(29%, 14%);
 }
-
+.green_bg p {
+    position: absolute;
+    transform: translate(148%, 2900%);
+}
+/* .captions{
+    display: flex;
+    justify-content: space-between;  
+} */
 .sign_up {
     margin-top: 215px;
     margin-bottom: 128px;
